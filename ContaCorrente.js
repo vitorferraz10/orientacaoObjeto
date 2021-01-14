@@ -3,11 +3,11 @@ import { Cliente } from "./Cliente.js";
 export class ContaCorrente {
     
     agencia;
-    cliente;
+    _cliente; 
     
     set cliente(novoValor){
         if(novoValor instanceof cliente){
-        this.cliente = novoValor;
+        this._cliente = novoValor;
     } 
 }
 

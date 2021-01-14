@@ -16,6 +16,6 @@ const conta2 = new ContaCorrente(cliente2, 102);
 
 // ContaCorrenteVitor.transferir(valor, conta2);
 
-console.log(cliente1);
+console.log(cliente1); 
 
 
